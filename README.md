@@ -26,7 +26,7 @@ If commands are run as `root`, you can see auth/config mismatch errors.
 Keep this terminal open:
 
 ```bash
-ssh -N -L 18789:127.0.0.1:18789 root@<VPS_IP>
+ssh -N -L 18789:127.0.0.1:18789 root@144.91.76.206
 ```
 
 ### 2) Open dashboard locally
@@ -130,7 +130,7 @@ If broken:
 ## Runbook Commands (Copy/Paste)
 ```bash
 # VPS login
-ssh root@<VPS_IP>
+ssh root@144.91.76.206
 
 # switch user
 su - admin
